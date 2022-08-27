@@ -71,7 +71,7 @@ public class SalesManager {
         messenger.generateMessage("What Country was the purchase made in?");
         String country = scan.nextLine();
 
-        messenger.generateMessage("What was the base price?");
+        messenger.generateMessage("What was the price?");
         String response  = scan.nextLine();
         double amount = Double.parseDouble(response);
 
